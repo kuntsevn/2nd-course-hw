@@ -49,6 +49,7 @@ console.log(user.name);
 console.log(user.age);
 console.log(user.isAdmin);
 console.log(user['city of residence']);
+alert (user[info]) // добавлено 27.05.23
 
 let infO; //10
 infO=prompt('как вас зовут?');

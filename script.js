@@ -20,9 +20,9 @@ let f = 2; //5
 result = f**5;
 alert(result);
 
-let A = 9; //6
-let B = 2;
-alert (A%B)
+let newa = 9; //6
+let b = 2;
+alert (newa%b)
 
 let num = 1; //7
 num += 5;

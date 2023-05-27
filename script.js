@@ -3,8 +3,8 @@ alert(a);
 a = 20; // добавлено 27.05.23
 alert (a); // добавлено 27.05.23
 
-const b = 2007; //2
-alert(`год выпуска 1го айфона ${b}`);
+const IphoneStartYear = 2007; //2
+alert(`год выпуска 1го айфона ${IphoneStartYear}`);
 
 const c = 'Брендан Эйх'; //3
 alert(`значение имени создателя языка JavaScript ${c}`)

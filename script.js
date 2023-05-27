@@ -38,9 +38,9 @@ age=prompt ('сколько вам лет?');
 alert (age);
 
 const user = { 
-	name: String('Костя'),
-	age: Number(10), //9.2 изменила возраст с 8 на 10
-	isAdmin: Boolean(true),
+	name: 'Костя',
+	age: 10, //9.2 изменила возраст с 8 на 10
+	isAdmin: true,
 }//9.0
 
 user['city of residence'] = String('NY'); //9.1 добавлено свойство 

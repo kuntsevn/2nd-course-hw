@@ -2,7 +2,7 @@
 const password = '0000';
 let inputPassword = prompt('введите пароль');
 inputPassword === password ? console.log('пароль введен верно') : console.log('неверно, введите пароль');
-
+// console.log(inputPassword === password ? 'пароль введен верно' : 'неверно, введите пароль')
 //2.3.2
 let c = prompt('введите любое число'); // скрипт проверен со значениями переменной c, равной 0, 10, 3, 2.
 if (c > 0 && c < 10) {

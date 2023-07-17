@@ -1,5 +1,6 @@
+
 //Задание 2.5.1
-/*
+/
 function min(a, b) { return a <= b? a : b; }
 var x = 8, y = 4, m;
 m = min(x, y);
@@ -10,12 +11,14 @@ var x = 6, y = 6, m;
 m = min(x, y);
 console.log(m);
 
+
+
 //Задание 2.5.2
 
 
 
 function even_or_odd(number) {
-    return number % 2 === 0 ? "Odd" : "Even"
+    return number % 2 === 0 ? "even" : "odd"
 }
 
 console.log(even_or_odd(3));
@@ -55,7 +58,7 @@ if (age < 0){
 	    console.log('Вы ввели неправильное значение');
     } 
 }else {
-	if (age > 0 & age < 12){
+	if (age > 0 & age < 13){
         function printMessage() {
     console.log('Привет, друг!');
     } 
@@ -83,7 +86,6 @@ printMessage()
 mult (x,y)
 
 
-
 //Задание 2.5.6
 
 let x  = prompt('введите значение');
@@ -94,6 +96,27 @@ return isNaN(x) === true ? console.log('не является числом') : c
  }
  thirdDegree (x);
 
- */
 
- 
+
+ //Задание 2.5.7
+
+
+const circle1 = {
+	radius: 12,
+    getPerimeter: function () {
+        console.log(Math.PI*circle1.radius*2)},
+    getArea: function () {
+        console.log(Math.PI*circle1.radius*circle1.radius)},
+ }
+ circle1.getArea ();
+ circle1.getPerimeter ();
+
+ const circle2 = {
+	radius: 102,
+    getPerimeter: function () {
+        console.log(Math.PI*circle2.radius*2)},
+    getArea: function () {
+        console.log(Math.PI*circle2.radius*circle2.radius)},
+ }
+ circle2.getArea ();
+ circle2.getPerimeter ();

@@ -43,10 +43,57 @@ return num * num;
     let numb = 4;
 
     alert (square(numb))
-*/
+
 
    //Задание 2.5.4 
 
 
+let age = prompt("Сколько вам лет?");
 
-   
+if (age < 0){
+        function printMessage() {
+	    console.log('Вы ввели неправильное значение');
+    } 
+}else {
+	if (age > 0 & age < 12){
+        function printMessage() {
+    console.log('Привет, друг!');
+    } 
+}else 
+    {
+        function printMessage() {
+    console.log('Добро пожаловать!');
+}
+    }
+}
+
+printMessage()
+
+
+   //Задание 2.5.5
+
+
+   let x  = prompt('введите значение');
+   let y  = prompt('введите значение');
+
+   function mult(х,y) {
+   return isNaN(x) || isNaN(y)=== true ? console.log('одно или оба значения не являются числом') : console.log(x*y);
+    }
+
+mult (x,y)
+
+
+
+//Задание 2.5.6
+
+let x  = prompt('введите значение');
+
+
+function thirdDegree(х) {
+return isNaN(x) === true ? console.log('не является числом') : console.log(x*x*x);
+ }
+ thirdDegree (x);
+
+ */
+
+ 

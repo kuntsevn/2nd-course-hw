@@ -1,6 +1,6 @@
 
 //Задание 2.5.1
-/
+
 function min(a, b) { return a <= b? a : b; }
 var x = 8, y = 4, m;
 m = min(x, y);
@@ -120,3 +120,21 @@ const circle1 = {
  }
  circle2.getArea ();
  circle2.getPerimeter ();
+
+//Задание 2.5.8 Макет и функция ниже
+
+function getSeason() {
+    let month = prompt("Введите номер месяца (от 1 до 12):");
+    if (month < 1 || month > 12) {
+      console.log("Неправильный номер месяца");
+    } else if (month >= 3 && month <= 5) {
+        console.log("Весна");
+    } else if (month >= 6 && month <= 8) {
+        console.log("Лето");
+    } else if (month >= 9 && month <= 11) {
+        console.log("Осень");
+    } else {
+        console.log("Зима");
+    }
+  }
+  getSeason()

@@ -1,4 +1,4 @@
-/*
+
 //задание 6.1
 
 const numbs = [1, 5, 4, 10, 0, 3];
@@ -105,5 +105,11 @@ console.log(positives);}
 filterPositive([-1, 0, 5, -10, 56]); // => [-1, -10]
 filterPositive([-25, 25, 0, -1000, -2]); // => [-25, -1000, -2]
 
+//задание 6.14
 
-*/
+let evenNumbers = [];
+for(i = 0; i < 10; i++) {
+    evenNumbers[i] = Math.floor(Math.random() * 10);
+}
+console.log(evenNumbers);
+console.log(evenNumbers.filter(i => i % 2 === 0));

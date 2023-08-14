@@ -21,13 +21,35 @@ let numbs = [1, 3, 5, 10, 20];
 numbs = numbs.join('  ');
 console.log(numbs); // 1 3 5 10 20
 
-*/
+
 //задание 6.4
 
+const arr = [[1, 1, 1], [1, 1, 1], [1, 1, 1]];
+const outPutArr = [];
+for (const inArr of arr) {
+    const newArray = [];
+    for (const element of inArr) {
+        newArray.push(element);
+    }
+    outPutArr.push(newArray);
+}
+console.log(outPutArr);
 
 
 //задание 6.5
+
+let numbs = [1, 1, 1];
+let numbs2 = [2, 2, 2];
+let numbs3 =numbs.concat(numbs2);
+console.log(numbs3);
+
+*/
 //задание 6.6
+
+let arr = [9, 8, 7, 'a', 6, 5];
+
+
+
 //задание 6.7
 //задание 6.8
 //задание 6.9

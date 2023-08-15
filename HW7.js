@@ -1,5 +1,5 @@
 // задание 7.1
-/*
+
 let str = 'строка';
 str = str.toUpperCase();
 console.log(str);
@@ -76,6 +76,22 @@ let myDate = new Date();
 let fullDate = "Сегодняшняя дата: " + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()] + ", " + myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
 
 console.log(fullDate);
-*/
+
 // задание 7.11
+
+// макет обновлен и функция к макету
+
+
+let gameTwo = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+gameTwo = gameTwo.sort(() => Math.random() - 0.5);
+alert(gameTwo);
+let firstQuestion = prompt("Чему равнялся первый элемент массива?");
+let secondQuestion = prompt("Чему равнялся последний элемент массива?");
+if (gameTwo[0].toLowerCase() === firstQuestion.toLowerCase() && gameTwo[6].toLowerCase() === secondQuestion.toLowerCase()) {
+    alert('Поздравляем, вы ответили верно');
+ } else if(gameTwo[0].toLowerCase() === firstQuestion.toLowerCase() && gameTwo[6].toLowerCase() !== secondQuestion.toLowerCase() || gameTwo[0].toLowerCase() !== firstQuestion.toLowerCase() && gameTwo[6].toLowerCase() === secondQuestion.toLowerCase()) {
+   alert('Один правильный ответ из двух - вы были близки к победе');
+ } else {
+    alert('К сожалению вы ответили не верно');
+ }
 

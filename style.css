@@ -54,11 +54,23 @@
         padding-bottom: 128px;
     }
     
-    .for-box:hover {
+    .for-box2:hover {
         cursor: url(img/cursor.svg), pointer;
         border: 3px solid #44D2FF;
     }
     
+    .for-box2 {
+        background-color: black;
+        padding-top: 128px;
+        padding-bottom: 128px;
+    }
+    
+    .for-box2:hover {
+        cursor: url(img/cursor.svg), pointer;
+        border: 3px solid #44D2FF;
+    }
+
+
     .for {
         display: flex;
         flex-wrap: wrap;
@@ -66,6 +78,13 @@
         column-gap: 32px;
     }
     
+    .for2 {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 32px;
+        column-gap: 120px;
+    }
+
     .for_item {
         height: 300px;
         width: 375px;
@@ -80,12 +99,23 @@
         justify-content: left;
         align-items: last baseline;
     }
+
     
     .for_item:hover {
         cursor: url(img/Vector.svg), pointer;
         border: 3px solid #44D2FF;
         border-radius: 18px;
     }
+
+
+
+    
+    .for_item_:hover {
+        cursor: url(img/Vector.svg), pointer;
+        border: 3px solid #44D2FF;
+        border-radius: 18px;
+    }
+    
     
     .name123 {
         font-size: 24px;
@@ -97,6 +127,7 @@
     .for_item1 {
         background-image: url(img/for1.jpg);
     }
+
     
     .for_item2 {
         background-image: url(img/for2.jpg);
@@ -105,7 +136,17 @@
     .for_item3 {
         background-image: url(img/for3.jpg);
     }
-    
+
+    .for_item4 {
+        background-image: url(img/for4.svg);
+        height: 236px;
+        width: 584px;
+    }
+    .for_item5 {
+        background-image: url(img/for5.svg);
+        height: 333px;
+        width: 485px;
+    }
     .button {
         box-sizing: border-box;
         width: 234px;
@@ -143,4 +184,16 @@
         .top {
             text-align: center;
         }
+        .for_item4 {
+            background-image: url(img/for4m.svg);
+            width: 343px;
+            height: 217px;
+        }
+        .for_item5 {
+            background-image: url(img/for5m.svg);
+            width: 343px;
+            height: 236px;
+
+
     }
+}

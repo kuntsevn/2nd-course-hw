@@ -45,7 +45,7 @@ function getRandomArrNumbers(num) {
     return (Array.from({length: num / 2}, () => Math.round(Math.random() * num)));  
 }
 console.log(getRandomArrNumbers(4));
-*/
+
 // задание 7.7
 
 function getRandomInt(minValue, maxValue) {
@@ -56,11 +56,26 @@ console.log(getRandomInt (6, 10));
 
 // задание 7.8
 
+var now = new Date();
+console.log( now );
 
 // задание 7.9
 
+let date = new Date();
+date.setDate(date.getDate() + 73);
+
+alert( date ); // 27/10/23
 
 // задание 7.10
 
+const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
 
+let myDate = new Date(); 
+let fullDate = "Сегодняшняя дата: " + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()] + ", " + myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
+
+console.log(fullDate);
+*/
 // задание 7.11
+

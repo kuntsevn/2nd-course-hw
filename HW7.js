@@ -1,5 +1,5 @@
 // задание 7.1
-/*
+
 let str = 'строка';
 str = str.toUpperCase();
 console.log(str);
@@ -80,7 +80,7 @@ console.log(fullDate);
 // задание 7.11
 
 // макет обновлен и функция к макету
-*/
+
 function getJS() {
 let gameTwo = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
 gameTwo = gameTwo.sort(() => Math.random() - 0.5);

@@ -96,4 +96,3 @@ if (gameTwo[0].toLowerCase() === firstQuestion.toLowerCase() && gameTwo[6].toLow
  }
 
 }
-getJS()

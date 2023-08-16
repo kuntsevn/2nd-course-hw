@@ -192,6 +192,8 @@
     font-weight: 400;
 }
 
+
+
 .button:hover {
     cursor: url(img/Vector.svg), pointer;
     border: 3px solid #44D2FF;
@@ -201,6 +203,7 @@
     .center {
         padding-left: 16px;
         padding-right: 16px;
+        text-align: center;
     }
     .title {
         font-size: 32px;
@@ -227,13 +230,9 @@
         height: 236px;
 }
 .for_item6 {
-    background-image: url(img/for7m.svg);
+    background-image: url(img/for6m.svg);
     width: 343px;
     height: 217px;
 }
-.for_item7 {
-    background-image: url(img/for6m.svg);
-    width: 344px;
-    height: 231px;
-}
+
 }

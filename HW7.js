@@ -1,5 +1,5 @@
 // задание 7.1
-
+/*
 let str = 'строка';
 str = str.toUpperCase();
 console.log(str);
@@ -80,8 +80,8 @@ console.log(fullDate);
 // задание 7.11
 
 // макет обновлен и функция к макету
-
-
+*/
+function getJS() {
 let gameTwo = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
 gameTwo = gameTwo.sort(() => Math.random() - 0.5);
 alert(gameTwo);
@@ -95,3 +95,5 @@ if (gameTwo[0].toLowerCase() === firstQuestion.toLowerCase() && gameTwo[6].toLow
     alert('К сожалению вы ответили не верно');
  }
 
+}
+getJS()

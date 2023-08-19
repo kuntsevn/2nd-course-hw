@@ -1,7 +1,6 @@
 
 // задание 1
-
- const people = [
+const people = [
     { name: 'Глеб', age: 29 },
     { name: 'Анна', age: 17 },
     { name: 'Олег', age: 7 },
@@ -47,7 +46,6 @@ function isPositive(num) {
 
   // задание 3
 
-
 var timerId = setInterval(() => console.log(new Date), 3000);
 
 setTimeout(() => { clearInterval(timerId); alert('30 секунд прошло'); }, 30000);
@@ -77,7 +75,37 @@ setTimeout(() => {
     return sayHi('Gleb');
 }, 2000); delayForSecond();
 
- 
+// задание 5
+
+function delayForSecond(cb) {
+  setTimeout(() => {
+      console.log('Прошла одна секунда');
+      if(cb) { 	cb(); }
+
+  }, 1000)
+}
+
+function sayHi (name) {
+  console.log(`Привет, ${name}!`);
+}
 
 
+delayForSecond(() => sayHi('Gleb'));
 
+/* 
+// задание 5 (исходная версия - оставляю, чтобы потом разобраться)
+
+function delayForSecond(cb) {
+  setTimeout(() => {
+      console.log('Прошла одна секунда');
+      if(cb) { 	cb(); }
+
+  }, 1000)
+}
+function sayHi (name) {
+  console.log(`Привет, ${name}!`);
+}
+setTimeout(() => {
+  return sayHi('Gleb');
+}, 2000); delayForSecond();
+*/
